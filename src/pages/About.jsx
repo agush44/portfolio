@@ -1,3 +1,5 @@
+import profileImg from "../assets/agushcv.png";
+
 function About() {
   return (
     <div className="p-10">

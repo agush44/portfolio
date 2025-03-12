@@ -7,14 +7,19 @@ function Footer() {
           reservados
         </p>
         <div className="flex space-x-4">
-          <a href="#" className="hover:text-gray-400">
+          <a
+            href="https://www.linkedin.com/in/magustinabenitez/"
+            target="_blank"
+            className="hover:text-gray-400"
+          >
             LinkedIn
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a
+            href="https://github.com/agush44"
+            target="_blank"
+            className="hover:text-gray-400"
+          >
             GitHub
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            Twitter
           </a>
         </div>
       </div>

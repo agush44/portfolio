@@ -1,11 +1,24 @@
+import Hero from "../components/Hero/Hero";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
+
 function Home() {
   return (
-    <div className="text-center p-10">
-      <h2 className="text-3xl font-bold">Bienvenido a mi Portfolio</h2>
-      <p className="mt-4 text-gray-600 max-w-xl mx-auto">
-        Soy una desarrolladora fullstack apasionada por la tecnología.
-      </p>
-    </div>
+    <>
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </>
   );
 }
 

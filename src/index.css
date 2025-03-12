@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.project-card {
+  cursor: url("/clic.png"), pointer;
+}
