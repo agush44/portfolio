@@ -40,7 +40,7 @@ const TerminalForm = () => {
           </div>
         </div>
 
-        <p className="text-lg">¡Hola! Gracias por visitar mi portafolio 🚀</p>
+        <p className="text-lg">¡Hola! Gracias por visitar mi portfolio 🚀</p>
         <hr className="border-gray-700 my-3" />
         <p>
           ¿Quieres ponerte en contacto conmigo? Déjame tu{" "}
