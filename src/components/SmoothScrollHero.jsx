@@ -7,7 +7,7 @@ export const SmoothScrollHero = () => {
     <div className="bg-zinc-950">
       <ReactLenis root options={{ lerp: 0.05 }}>
         <StackHero />
-        <Projects />
+        <Projects id="projects" />
       </ReactLenis>
     </div>
   );
