@@ -2,12 +2,13 @@ import Hero from "../components/Hero/Hero";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import { AuroraHero } from "../components/Hero/AuroraHero";
 
 function Home() {
   return (
     <>
       <section id="hero">
-        <Hero />
+        <AuroraHero />
       </section>
       <section id="about">
         <About />
