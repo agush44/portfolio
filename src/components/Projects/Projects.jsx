@@ -1,7 +1,7 @@
 import { Project } from "./Project";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import projectsData from "../Data/ProjectsData";
+import projectsData from "../Data/projectsData";
 
 export const Projects = () => {
   return (

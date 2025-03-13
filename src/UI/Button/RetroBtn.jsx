@@ -1,9 +1,9 @@
 import { Button } from "./RetroBtn.styles";
 
-const RetroBtn = ({ children }) => {
+const RetroBtn = ({ children, onClick }) => {
   return (
     <div>
-      <Button>{children}</Button>
+      <Button onClick={onClick}>{children}</Button>
     </div>
   );
 };
