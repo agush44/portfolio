@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   font-family: "IBM Plex Mono";
+  color: #333;
   font-weight: 700;
-  margin-bottom: 2rem;
   text-transform: uppercase;
   background-color: white;
   padding: 0.75rem 1rem;

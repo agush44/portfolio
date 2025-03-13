@@ -2,9 +2,7 @@ function Projects() {
   return (
     <div className="p-10 max-w-6xl mx-auto">
       <h2 className="text-2xl font-bold">Mis Proyectos</h2>
-      <p className="mt-2 text-gray-600">
-        Aquí puedes listar tus proyectos con enlaces a GitHub o demos.
-      </p>
+      <p className="mt-2 text-gray-600"></p>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="project-card bg-gray-200 p-6 rounded-lg shadow-lg transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-103 cursor-pointer">
           <h3 className="font-semibold text-xl">PetShop</h3>

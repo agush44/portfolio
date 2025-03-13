@@ -7,3 +7,16 @@ html {
 .project-card {
   cursor: url("/clic.png"), pointer;
 }
+
+.profile {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .form-container {
+    margin: 4rem 2.5rem;
+  }
+}

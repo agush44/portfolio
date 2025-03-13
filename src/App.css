@@ -5,3 +5,35 @@
 h1 {
   font-family: "Press Start 2P", system-ui;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+  position: absolute;
+  pointer-events: none;
+}
+
+input,
+textarea {
+  caret-color: transparent;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+input:focus,
+textarea:focus {
+  caret-color: #00ff00;
+}
+
+input,
+textarea {
+  font-family: "Source Code Pro", monospace;
+}
