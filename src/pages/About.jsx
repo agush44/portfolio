@@ -12,7 +12,10 @@ function About() {
           />
         </div>
         <div className="text-left max-w-lg">
-          <h2 className="text-3xl font-bold mb-6">Sobre Mí</h2>
+          <div className="flex items-center gap-2 mb-6">
+            <h2 className="text-3xl font-bold">Sobre mí</h2>
+            <img src="/arg.png" alt="Bandera Argentina" className="w-6 h-6" />
+          </div>
           <p className="text-gray-600 leading-relaxed mb-4">
             Soy estudiante de la Tecnicatura en Informática aplicada al Diseño
             Multimedia y Sitios Web en la{" "}
@@ -31,10 +34,31 @@ function About() {
             <strong>Bash scripting</strong> y herramientas de diseño como{" "}
             <strong>Photoshop</strong> e <strong>Illustrator</strong>.
           </p>
-          <p className="text-gray-600 leading-relaxed">
-            Tengo un nivel avanzado de <strong>inglés</strong>,{" "}
-            <strong>italiano</strong> y <strong>francés</strong>.
+          <p className="text-gray-600 leading-relaxed flex items-center mb-2 gap-4">
+            Tengo un nivel avanzado de:
           </p>
+          <ul className="list-disc list-inside text-gray-600 leading-relaxed">
+            <li className="flex items-center gap-2 mb-2">
+              <img
+                src="/uk.png"
+                alt="Bandera Reino Unido"
+                className="w-6 h-6"
+              />
+              <strong>Inglés</strong>
+            </li>
+            <li className="flex items-center gap-2 mb-2">
+              <img
+                src="/france.png"
+                alt="Bandera Francia"
+                className="w-6 h-6"
+              />
+              <strong>Francés</strong>
+            </li>
+            <li className="flex items-center gap-2 mb-2">
+              <img src="/italy.png" alt="Bandera Italia" className="w-6 h-6" />
+              <strong>Italiano</strong>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

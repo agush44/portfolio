@@ -10,7 +10,7 @@ html {
 
 h1 {
   font-family: "Press Start 2P", system-ui;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 section:not(:first-of-type):not(:last-of-type) {
