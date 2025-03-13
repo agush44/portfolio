@@ -35,14 +35,14 @@ const TerminalForm = () => {
           <span className="w-3 h-3 bg-red-500 rounded-full"></span>
           <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
           <span className="w-3 h-3 bg-green-500 rounded-full"></span>
-          <div className="text-green-400 font-mono ml-4 sm:ml-0 md:ml-4 lg:ml-30 truncate max-w-[90%] md:max-w-[70%] lg:max-w-none">
+          <div className="text-green-400 text-sm font-mono ml-4 sm:ml-0 md:ml-4 lg:ml-40 truncate max-w-[90%] md:max-w-[70%] lg:max-w-none">
             magustinabenitez@gmail.com
           </div>
         </div>
 
         <p className="text-lg">¡Hola! Gracias por visitar mi portfolio 🚀</p>
         <hr className="border-gray-700 my-3" />
-        <p>
+        <p className="mt-5">
           ¿Quieres ponerte en contacto conmigo? Déjame tu{" "}
           <span className="text-blue-400">correo</span> y un{" "}
           <span className="text-blue-400">mensaje</span>.
