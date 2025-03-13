@@ -42,8 +42,8 @@ const TerminalForm = () => {
 
         <p className="text-lg">¡Hola! Gracias por visitar mi portfolio 🚀</p>
         <hr className="border-gray-700 my-3" />
-        <p className="mt-5">
-          ¿Quieres ponerte en contacto conmigo? Déjame tu{" "}
+        <p className="mt-5 mb-7">
+          ¿Querés ponerte en contacto conmigo? Dejame tu{" "}
           <span className="text-blue-400">correo</span> y un{" "}
           <span className="text-blue-400">mensaje</span>.
         </p>

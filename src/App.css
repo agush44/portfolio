@@ -32,10 +32,6 @@ textarea {
   font-family: "Source Code Pro", monospace;
 }
 
-.project-card {
-  cursor: url("/clic.png"), pointer;
-}
-
 .profile {
   height: 250px;
   width: 250px;
