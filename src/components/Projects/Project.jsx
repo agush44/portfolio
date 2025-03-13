@@ -1,21 +1,22 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import RetroBtn from "../../UI/Button/RetroBtn";
 
-export const Project = ({ title, date, location }) => {
+export const Project = ({ title, description, link }) => {
+  const handleClick = () => {
+    window.open(link, "_blank");
+  };
+
   return (
     <motion.div
       initial={{ y: 48, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.75 }}
-      className="mb-9 flex items-center justify-between border-b border-zinc-800 px-3 pb-9"
+      className="relative mb-9 overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900 p-6 shadow-lg transition-transform hover:scale-[1.02]"
     >
-      <div>
-        <p className="mb-1.5 text-xl text-zinc-50">{title}</p>
-        <p className="text-sm uppercase text-zinc-500">{date}</p>
-      </div>
-      <div className="flex items-center gap-1.5 text-end text-sm uppercase text-zinc-500">
-        <p>{location}</p>
-      </div>
+      <h2 className="mb-2 text-2xl font-semibold text-zinc-50">{title}</h2>
+      <p className="mb-4 text-sm text-zinc-400">{description}</p>
+      <RetroBtn onClick={handleClick}>Ver Proyecto →</RetroBtn>
     </motion.div>
   );
 };

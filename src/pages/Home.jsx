@@ -2,7 +2,6 @@ import About from "./About";
 import ProjectsPage from "./ProjectsPage";
 import Contact from "./Contact";
 import { AuroraHero } from "../components/Hero/AuroraHero";
-import { SmoothScrollHero } from "../components/SmoothScrollHero";
 
 function Home() {
   return (

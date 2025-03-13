@@ -1,6 +1,7 @@
 import { Project } from "./Project";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import projectsData from "../Data/ProjectsData";
 
 export const Projects = () => {
   return (
@@ -16,9 +17,14 @@ export const Projects = () => {
       >
         Proyectos
       </motion.h1>
-      <Project title="NG-21" date="Dec 9th" location="Florida" />
-      <Project title="Starlink" date="Dec 20th" location="Texas" />
-      <Project title="Starlink" date="Jan 13th" location="Florida" />
+      {projectsData.map(({ title, description, link }, index) => (
+        <Project
+          key={index}
+          title={title}
+          description={description}
+          link={link}
+        />
+      ))}
     </section>
   );
 };

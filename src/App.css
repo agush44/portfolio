@@ -12,7 +12,7 @@ h1 {
   }
 }
 
-section:not(:first-of-type) {
+section:not(:first-of-type):not(:last-of-type) {
   padding-top: 80px;
 }
 
