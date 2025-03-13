@@ -12,6 +12,10 @@ h1 {
   }
 }
 
+section:not(:first-of-type) {
+  padding-top: 80px;
+}
+
 .animate-blink {
   animation: blink 1s step-end infinite;
   position: absolute;

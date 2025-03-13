@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 export const SlideTabs = () => {
@@ -40,9 +41,8 @@ const Tab = ({ children, setPosition, href }) => {
   const ref = useRef(null);
 
   const handleClick = (event) => {
-    event.preventDefault(); // Prevent default anchor behavior
+    event.preventDefault();
 
-    // Smooth scroll to the section
     const target = document.querySelector(href);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });

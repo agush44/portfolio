@@ -1,4 +1,4 @@
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Nav/NavBar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import "./App.css";

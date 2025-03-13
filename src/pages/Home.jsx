@@ -1,8 +1,8 @@
-import Hero from "../components/Hero/Hero";
 import About from "./About";
-import Projects from "./Projects";
+import ProjectsPage from "./ProjectsPage";
 import Contact from "./Contact";
 import { AuroraHero } from "../components/Hero/AuroraHero";
+import { SmoothScrollHero } from "../components/SmoothScrollHero";
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
         <About />
       </section>
       <section id="projects">
-        <Projects />
+        <ProjectsPage />
       </section>
       <section id="contact">
         <Contact />

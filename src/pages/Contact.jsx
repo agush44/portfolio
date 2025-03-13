@@ -63,7 +63,6 @@ export default function TerminalForm() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="bg-transparent border-none focus:outline-none text-white w-full font-mono"
-                autoFocus
                 required
               />
             </div>
