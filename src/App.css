@@ -8,14 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-family: "Press Start 2P", system-ui;
-  font-size: 1.8rem;
-}
-
-/*section:not(:first-of-type):not(:last-of-type) {
-  padding-top: 80px;
-}*/
+/*Contact */
 
 textarea {
   resize: none;
@@ -32,15 +25,16 @@ textarea {
   font-family: "Source Code Pro", monospace;
 }
 
+@media (max-width: 640px) {
+  .form-container {
+    margin: 4rem 2.5rem;
+  }
+}
+
+/* Profile */
 .profile {
   height: 250px;
   width: 250px;
   object-fit: cover;
   margin-bottom: 2rem;
-}
-
-@media (max-width: 640px) {
-  .form-container {
-    margin: 4rem 2.5rem;
-  }
 }

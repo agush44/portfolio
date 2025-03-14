@@ -12,6 +12,7 @@ export const ParallaxStackImages = () => {
       />
       <ParallaxStackImg
         src="/Node.js_logo.svg"
+        alt="Node.js Logo"
         start={150}
         end={-200}
         className="mx-auto w-2/3"

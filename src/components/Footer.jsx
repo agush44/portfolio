@@ -1,12 +1,12 @@
 function Footer() {
   return (
-    <footer className="bg-gray-950 text-white text-center p-4 mt-auto w-full">
+    <footer className="bg-gray-950 text-white text-center p-8 mt-auto w-full">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <p className="text-sm mb-2 md:mb-0">
           &copy; {new Date().getFullYear()} Mi Portfolio - Todos los derechos
           reservados
         </p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 pt-5 lg:pt-0">
           <a
             href="https://www.linkedin.com/in/magustinabenitez/"
             target="_blank"
