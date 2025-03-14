@@ -1,7 +1,7 @@
+import dataProjects from "../Data/dataProjects";
 import { Project } from "./Project";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import projectsData from "../Data/ProjectsData";
 
 export const Projects = () => {
   return (
@@ -17,7 +17,7 @@ export const Projects = () => {
       >
         Proyectos
       </motion.h2>
-      {projectsData.map(({ title, description, link }, index) => (
+      {dataProjects.map(({ title, description, link }, index) => (
         <Project
           key={index}
           title={title}
