@@ -2,7 +2,7 @@ import ProfilePhoto from "../assets/agushcv.png";
 
 function About() {
   return (
-    <div className="p-10">
+    <div className="bg-gray-100 p-10">
       <div className="flex flex-col md:flex-row items-center justify-center gap-12">
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 mt-12 md:mt-0">
           <img
@@ -52,7 +52,7 @@ function About() {
                 alt="Bandera Francia"
                 className="w-6 h-6"
               />
-              <strong>Francés</strong>
+              <strong>Francés (Examen DELF B2)</strong>
             </li>
             <li className="flex items-center gap-2 mb-2">
               <img src="/italy.png" alt="Bandera Italia" className="w-6 h-6" />

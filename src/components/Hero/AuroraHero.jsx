@@ -36,14 +36,19 @@ export const AuroraHero = () => {
       className="relative w-full min-h-[100vh] place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200"
     >
       <div className="relative z-10 flex flex-col items-start pl-16 md:pl-32">
-        <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
+        <span className="mb-5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           Disponible para trabajar
         </span>
         <h2 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-left text-3xl font-bold leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
-          Soy Ma. Agustina Benitez,
+          Soy Ma. Agustina Benítez,
         </h2>
-        <p className="my-6 max-w-xl text-left text-base leading-relaxed md:text-lg md:leading-relaxed">
+        <p className="my-6 max-w-xl text-left text-base leading-relaxed md:text-lg md:leading-relaxed flex items-center gap-2">
           Desarrolladora Full Stack
+          <img
+            src="/dev1.png"
+            alt="Icono de desarrolladora"
+            className="w-8 h-8"
+          />
         </p>
         <a href="/BENITEZ2025_cv.pdf" download="BENITEZ2025_cv.pdf">
           <motion.button
