@@ -1,4 +1,4 @@
-const dataProjects = [
+const projectsData = [
   {
     title: "Gestión de base de datos de películas y usuarios",
     description:
@@ -19,4 +19,4 @@ const dataProjects = [
   },
 ];
 
-export default dataProjects;
+export default projectsData;

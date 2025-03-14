@@ -1,4 +1,4 @@
-import dataProjects from "../Data/dataProjects";
+import dataProjects from "./dataProjects";
 import { Project } from "./Project";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
