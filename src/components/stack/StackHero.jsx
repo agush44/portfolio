@@ -1,4 +1,4 @@
-import { CenterStackImage } from "./centerStackImage";
+import { CenterStackImage } from "./CenterStackImage";
 import { ParallaxStackImages } from "./ParallaxStackImages";
 
 const SECTION_HEIGHT = 1500;
