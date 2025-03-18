@@ -1,4 +1,4 @@
-import { ParallaxStackImg } from "./ParallaxStackImages";
+import { ParallaxStackImg } from "./ParallaxStackImg";
 
 export const ParallaxStackImages = () => {
   return (

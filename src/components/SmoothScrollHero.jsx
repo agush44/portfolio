@@ -1,5 +1,6 @@
 import { ReactLenis } from "lenis/dist/lenis-react";
-import { StackHero } from "./stack/StackHero";
+import { StackHero } from "./Stack/StackHero";
+
 import { Projects } from "./projects/Projects";
 
 export const SmoothScrollHero = () => {
