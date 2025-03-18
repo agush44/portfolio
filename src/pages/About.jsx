@@ -1,17 +1,31 @@
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 import ProfilePhoto from "../assets/agushcv.png";
 
 function About() {
   return (
     <div className="bg-gray-100 p-10 m-3">
       <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 mt-12 md:mt-0">
+        <motion.div
+          className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 mt-12 md:mt-0"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <img
-            className="object-cover w-full h-full transition-transform duration-300 ease-in-out hover:scale-105"
+            className="object-cover w-full h-full"
             src={ProfilePhoto}
             alt="Foto de perfil"
           />
-        </div>
-        <div className="text-left max-w-lg">
+        </motion.div>
+        <motion.div
+          className="text-left max-w-lg"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <div className="flex items-center gap-2 mb-6">
             <h2 className="text-3xl font-bold">Sobre mí</h2>
             <img src="/arg.png" alt="Bandera Argentina" className="w-6 h-6" />
@@ -23,7 +37,7 @@ function About() {
             Desarrollo Full Stack de la{" "}
             <strong>Universidad Tecnológica Nacional</strong>. Me especializo en
             tecnologías como <strong>JavaScript</strong>, <strong>React</strong>
-            , <strong>Node.js</strong>, <strong>Express</strong> y{" "}
+            ,<strong>Node.js</strong>, <strong>Express</strong> y{" "}
             <strong>MongoDB</strong>.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
@@ -52,14 +66,14 @@ function About() {
                 alt="Bandera Francia"
                 className="w-6 h-6"
               />
-              <strong>Francés (Examen DELF B2)</strong>
+              <strong>Francés (Diploma DELF B2)</strong>
             </li>
             <li className="flex items-center gap-2 mb-2">
               <img src="/italy.png" alt="Bandera Italia" className="w-6 h-6" />
               <strong>Italiano</strong>
             </li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
