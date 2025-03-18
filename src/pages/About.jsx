@@ -2,7 +2,7 @@ import ProfilePhoto from "../assets/agushcv.png";
 
 function About() {
   return (
-    <div className="bg-gray-100 p-10">
+    <div className="bg-gray-100 p-10 m-3">
       <div className="flex flex-col md:flex-row items-center justify-center gap-12">
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 mt-12 md:mt-0">
           <img

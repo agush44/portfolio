@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: "Gestión de un E-commerce (Petshop)",
+    description:
+      "Desarrollo de una aplicación web con React y Node.js que permite gestionar. Incluye registro y autenticación con JWT, operaciones CRUD y persistencia de datos con MongoDB. Integra la API de WhatsApp para enviar pedidos, permitiendo a los clientes finalizar compras por ese medio de forma práctica y eficiente.",
+    link: "https://github.com/agush44/petshop.git",
+  },
+  {
     title: "Gestión de base de datos de películas y usuarios",
     description:
       "Desarrollo de una aplicación backend que permite gestionar una base de datos de películas y usuarios, con funcionalidades de registro, autenticación y operaciones CRUD sobre las películas. Implementación de medidas de seguridad y documentación de la API con Swagger.",
