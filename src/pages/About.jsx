@@ -32,24 +32,24 @@ function About() {
           </div>
           <p className="text-gray-600 leading-relaxed mb-4">
             Soy estudiante de la Tecnicatura en Informática aplicada al Diseño
-            Multimedia y Sitios Web en la{" "}
+            Multimedia y de Sitios Web en la{" "}
             <strong>Universidad Nacional del Litoral</strong>, con un diploma en
-            Desarrollo Full Stack de la{" "}
+            Desarrollo Full Stack otorgado por la{" "}
             <strong>Universidad Tecnológica Nacional</strong>. Me especializo en
             tecnologías como <strong>JavaScript</strong>, <strong>React</strong>
-            ,<strong>Node.js</strong>, <strong>Express</strong> y{" "}
+            , <strong>Node.js</strong>, <strong>Express</strong> y{" "}
             <strong>MongoDB</strong>.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Cuento con certificaciones de{" "}
             <strong>Cisco en Ciberseguridad</strong>, con foco en protección de
-            endpoints, redes y configuración de dispositivos. Además, poseo
+            endpoints, redes y configuración de dispositivos. Además, tengo
             experiencia en el manejo de <strong>Linux</strong>,{" "}
             <strong>Bash scripting</strong> y herramientas de diseño como{" "}
             <strong>Photoshop</strong> e <strong>Illustrator</strong>.
           </p>
           <p className="text-gray-600 leading-relaxed flex items-center mb-2 gap-4">
-            Tengo un nivel avanzado de:
+            En cuanto a idiomas, poseo un nivel avanzado en:
           </p>
           <ul className="list-disc list-inside text-gray-600 leading-relaxed">
             <li className="flex items-center gap-2 mb-2">
