@@ -2,8 +2,14 @@ const projectsData = [
   {
     title: "Gestión de un E-commerce (Petshop)",
     description:
-      "Desarrollo de una aplicación web con React y Node.js que permite gestionar un e-commerce de productos para mascotas. Incluye registro y autenticación con JWT, operaciones CRUD para administrar productos, usuarios y órdenes de compra y persistencia de datos con MongoDB. Además, integra la API de WhatsApp para enviar pedidos, permitiendo a los clientes finalizar compras de forma práctica y eficiente directamente desde la aplicación.",
+      "Desarrollo del frontend de un e-commerce para mascotas con React, incluyendo un carrito funcional que envía pedidos vía WhatsApp. La interfaz cuenta con componentes reutilizables, animaciones atractivas y optimización para distintos dispositivos, ofreciendo una experiencia fluida y un diseño intuitivo.",
     link: "https://tupetshop.vercel.app/",
+  },
+  {
+    title: "Backend en desarrollo para E-commerce (Petshop)",
+    description:
+      "Desarrollo del backend para un e-commerce de mascotas utilizando Node.js, Express y MongoDB. Este proyecto incluye registro y autenticación con JWT, operaciones CRUD para gestionar productos, usuarios y órdenes de compra. Además, integra la API de WhatsApp para enviar pedidos directamente al dueño de la tienda y cuenta con un dashboard administrativo que permite manejar productos de forma intuitiva y eficiente.",
+    link: "https://github.com/agush44/petshop.git",
   },
   {
     title: "Gestión de base de datos de películas y usuarios",
