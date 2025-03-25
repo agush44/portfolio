@@ -1,6 +1,7 @@
 import Navbar from "./components/Nav/NavBar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Home />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }

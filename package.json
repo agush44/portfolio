@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^10.0.4",
     "@tailwindcss/vite": "^4.0.9",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.4.10",
     "lenis": "^1.2.3",
     "react": "^19.0.0",
