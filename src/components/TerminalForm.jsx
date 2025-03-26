@@ -59,6 +59,7 @@ const TerminalForm = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="bg-transparent border-none focus:outline-none text-white w-full font-mono"
+                aria-label="Correo electrónico"
                 required
               />
             </div>
@@ -72,6 +73,7 @@ const TerminalForm = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 className="bg-transparent border-none focus:outline-none text-white w-full font-mono resize-none overflow-hidden"
                 required
+                aria-label="Mensaje"
                 rows={1}
                 style={{ height: "auto" }}
                 onInput={(e) => {
