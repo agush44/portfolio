@@ -45,9 +45,10 @@ export const AuroraHero = () => {
         <p className="my-6 max-w-xl text-left text-base leading-relaxed md:text-lg md:leading-relaxed flex items-center gap-2">
           Desarrolladora Full Stack
           <img
-            src="/dev1.png"
+            src="/dev1.webp"
             alt="Icono de desarrolladora"
             className="w-8 h-8"
+            loading="lazy"
           />
         </p>
         <a href="/BENITEZ2025_cv.pdf" download="BENITEZ2025_cv.pdf">
