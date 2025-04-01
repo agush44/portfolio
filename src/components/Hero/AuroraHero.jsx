@@ -51,7 +51,7 @@ export const AuroraHero = () => {
             loading="lazy"
           />
         </p>
-        <a href="/Benitez2025.pdf" download="Benitez2025.pdf">
+        <a href="/Benitez_2025.pdf" download="Benitez_2025.pdf">
           <motion.button
             style={{
               border,
