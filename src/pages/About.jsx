@@ -31,22 +31,19 @@ function About() {
             <img src="/arg.png" alt="Bandera Argentina" className="w-6 h-6" />
           </div>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Soy estudiante de la Tecnicatura en Informática aplicada al Diseño
-            Multimedia y de Sitios Web en la{" "}
-            <strong>Universidad Nacional del Litoral</strong>, con un diploma en
-            Desarrollo Full Stack otorgado por la{" "}
-            <strong>Universidad Tecnológica Nacional</strong>. Me especializo en
-            tecnologías como <strong>JavaScript</strong>, <strong>React</strong>
-            , <strong>Node.js</strong>, <strong>Express</strong> y{" "}
-            <strong>MongoDB</strong>.
+            Soy Desarrolladora Web Full Stack especializada en{" "}
+            <strong>JavaScript</strong>, <strong>React</strong>,{" "}
+            <strong>Node.js</strong>, <strong>TypeScript</strong>,{" "}
+            <strong>Express</strong> y <strong>MongoDB</strong>. Desarrollo
+            aplicaciones escalables y de alto rendimiento, con un fuerte enfoque
+            en la experiencia del usuario.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Cuento con certificaciones de{" "}
-            <strong>Cisco en Ciberseguridad</strong>, con foco en protección de
-            endpoints, redes y configuración de dispositivos. Además, tengo
-            experiencia en el manejo de <strong>Linux</strong>,{" "}
-            <strong>Bash scripting</strong> y herramientas de diseño como{" "}
-            <strong>Photoshop</strong> e <strong>Illustrator</strong>.
+            Me apasiona crear interfaces intuitivas y eficientes que aseguren
+            una navegación fluida y un rendimiento óptimo. Con una base sólida
+            en desarrollo tanto <strong>frontend</strong> como{" "}
+            <strong>backend</strong>, busco construir soluciones que sean
+            técnicamente robustas, visualmente atractivas y accesibles.
           </p>
           <p className="text-gray-600 leading-relaxed flex items-center mb-2 gap-4">
             En cuanto a idiomas, poseo un nivel avanzado en:
