@@ -17,14 +17,18 @@ export const Projects = () => {
       >
         Proyectos
       </motion.h2>
-      {dataProjects.map(({ title, description, link }, index) => (
-        <Project
-          key={index}
-          title={title}
-          description={description}
-          link={link}
-        />
-      ))}
+      {dataProjects.map(
+        ({ title, description, link, technologies, img }, index) => (
+          <Project
+            key={index}
+            title={title}
+            description={description}
+            link={link}
+            technologies={technologies}
+            img={img}
+          />
+        )
+      )}
     </section>
   );
 };

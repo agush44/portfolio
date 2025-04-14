@@ -46,7 +46,7 @@ function About() {
             técnicamente robustas, visualmente atractivas y accesibles.
           </p>
           <p className="text-gray-600 leading-relaxed flex items-center mb-2 gap-4">
-            En cuanto a idiomas, poseo un nivel avanzado en:
+            En cuanto a idiomas, poseo un nivel avanzado de:
           </p>
           <ul className="list-disc list-inside text-gray-600 leading-relaxed">
             <li className="flex items-center gap-2 mb-2">
