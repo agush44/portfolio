@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-export const Project = ({ title, description, link, technologies, img }) => {
+export const Project = ({ title, description, link, technologies }) => {
   const handleClick = () => {
     window.open(link, "_blank");
   };
@@ -37,7 +37,7 @@ export const Project = ({ title, description, link, technologies, img }) => {
           {link.includes("vercel") && (
             <button
               onClick={handleClick}
-              className="text-xs px-3 py-1.5 flex items-center gap-1 cursor-pointer"
+              className="text-xs px-3 py-1.5 flex items-center gap-1 cursor-pointer bg-zinc-800 hover:bg-zinc-700"
             >
               <span>Website</span>
               <svg
