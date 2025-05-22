@@ -34,9 +34,7 @@ function About() {
             Soy Desarrolladora Web Full Stack especializada en{" "}
             <strong>JavaScript</strong>, <strong>React</strong>,{" "}
             <strong>Node.js</strong>, <strong>TypeScript</strong>,{" "}
-            <strong>Express</strong> y <strong>MongoDB</strong>. Desarrollo
-            aplicaciones escalables y de alto rendimiento, con un fuerte enfoque
-            en la experiencia del usuario.
+            <strong>Express</strong> y <strong>MongoDB</strong>.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Me apasiona crear interfaces intuitivas y eficientes que aseguren
